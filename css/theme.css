@@ -12,9 +12,7 @@ header>h1 {
 }
 
 section {
-    max-width: 90rem
-        /* 900 */
-    ;
+    max-width: 90rem;
     margin: 5rem auto;
     border: solid .1rem #2d3436;
     padding: 1rem;
