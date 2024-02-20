@@ -59,13 +59,14 @@ section {
     margin: 5rem auto;
     border: solid .1rem #2d3436;
     padding: 1rem;
+    background-color: #fff;
 }
 
 section img {
     width: 100%;
 }
 
-section img*{
+section img{
     text-align: center;
 }
 
@@ -74,6 +75,31 @@ section h2{
     font-weight: 400; 
 }
 
+.btns-default{
+    display: inline-block;
+    width: max-content;
+    background-color: #2d3436;
+    line-height: 2.5rem;
+    padding: .4rem .1rem;
+    border-radius: .4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: .3rem 1rem;
+}
+.btns-option-success{ /* couleur */
+    background-color: #27ae60;
+    color: #fff;
+
+}
+.btns-option-warning{
+    background-color: #8e44ad;
+    color: var(--bgsection);
+}
+
+section .btns-default{
+
+}
 footer *{
     text-align: center;
 }
