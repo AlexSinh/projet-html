@@ -97,9 +97,23 @@ section h2{
     color: var(--bgsection);
 }
 
-section .btns-default{
-
+.title-level-two{
+    background-color: var(--btns-default);
+    
 }
+
+
+
 footer *{
     text-align: center;
+}
+
+.btn-option-success,
+.btn-option-warning{
+    transition: all .3s ease-in-out
+}
+
+.btn=option-success:hover,
+.btn-option-warning:hover{
+    filter: brightness(0.5); 
 }
